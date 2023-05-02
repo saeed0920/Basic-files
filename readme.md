@@ -1,18 +1,30 @@
-# H1 Basic File
-
-====
+# Basic File
 
 ```
-1 step : install node-pakage
-2 step : inpute name project for package.json\*2
-3 step : check file sass (//1_base.scss and //2_utilities.scss and //3_mixins.scss and //4_variables.scss //5_style.scss)
+1 step : For update your npm pakage follow these :
+"npm i -g npm-check-updates"
+"ncu -u"
+in your cmd and
+
+2 step : install node-pakage
+
+3 step : inpute name project for package.json\*2
+
+4 step : check file sass (//1_base.scss and //
+2_utilities.scss and //3_mixins.scss and //4_variables.scss //5_style.scss)
+
+
+5 step : Run in you cmd "npx tailwindcss init" for install config file for tailwindcss
+
+6 step : Configure your template paths Add the paths to all of your template files in your tailwind.config.js file.
+
+7 step : Run the CLI tool to scan your template files for classes and build your CSS.
+! npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 ```
 
 gl💪
 
-===
-
-# H2 some step for start and building in project
+# some step for start and building in project
 
 ```
 #1 : who is the used in project?
@@ -36,7 +48,7 @@ gl💪
 #7 : which stuf to use?? and which pags build frist ?
 ```
 
-# H2 some tips and helps for plan...
+# some tips and helps for plan...
 
 - : ready img and fonts style ...
 - : create general-class and privacy-class

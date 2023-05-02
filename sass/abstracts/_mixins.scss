@@ -61,3 +61,13 @@ big-desktop
     }
   }
 }
+
+// new mixni custom
+@mixin breakpoint($breakpoint) {
+  $max-width: $breakpoint;
+
+  @media only screen and (max-width: $max-width) {
+    // breakpoint styles
+    @content;
+  }
+}
