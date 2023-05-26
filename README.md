@@ -1,6 +1,6 @@
 # Basic File
 
-<h3>Now you can choose bettwen 2 modes of classic or vite option in basic files </h3>
+<h3>Now you can choose between 2 modes of classic or vite option in basic files </h3>
 </br>
 Gl and enjoy that
 </br>
