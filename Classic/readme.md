@@ -3,7 +3,7 @@
 ```
 1 step : For update your npm pakage follow these :
 "npm i -g npm-check-updates"
-"ncu -u"
+"ncu -u" or "npm update --save-dev"
 in your cmd and
 
 2 step : install node-pakage
@@ -18,8 +18,9 @@ in your cmd and
 
 6 step : Configure your template paths Add the paths to all of your template files in your tailwind.config.js file.
 
-7 step : Run the CLI tool to scan your template files for classes and build your CSS.
-! npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+7 step : Run the CLI tool to scan your template files for classes and build your CSS or just run "npm start"
+8 lastStep : link main.css file in your html file
+
 ```
 
 gl💪

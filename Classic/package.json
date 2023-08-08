@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "watch-sass": "node-sass sass/style.scss css/style.css -w",
+    "watch-tailwind": "npx tailwindcss -i ./css/style.css -o ./css/main.css --watch",
     "live-server": "live-server",
-    "start": "npm-run-all --parallel live-server watch-sass",
+    "start": "npm-run-all --parallel live-server watch-sass watch-tailwind",
     "compile-sass": "node-sass sass/style.scss css/style.comp.css",
     "concat-css": "concat -o css/style.concat.css  css/style.comp.css",
     "prefix-css": "postcss --use autoprefixer -b 'last 10 version' css/style.concat.css -o css/style.prefix.css",
